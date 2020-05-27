@@ -129,7 +129,6 @@ d3.csv("ucenrollmentdata.csv").then(function(data) {
   var mouseleave = function(d) {
     tooltip.style("opacity", 0)
     d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
-    toolvalues.style("opacity", 0)
    }
 
   /*
