@@ -1,0 +1,30 @@
+/* 
+File: ucenrolls.css
+Here is the CSS styling for the streamgraph. I decided on
+having a dark background with light text because (1) dark
+mode is superior, and (2) the scaleOrdinal I'm using in d3
+ranges from a very light color and was hard to make out
+in a white background. 
+*/
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* formatting for x axis years */
+text{
+    color: white;
+    font-size: 14px;
+}
+
+body{
+    background: #121212;
+}
+
+h4, p, ul, a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
